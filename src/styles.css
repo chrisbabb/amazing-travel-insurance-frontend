@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#site-logo, #footer-logo{
+  height: 75px;
+}
+
+#footer-logo{
+  margin-top: 50px;
+}
+
+#footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #0c77e2;
+}
+
+#footer-copyright{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #323063;
+}
+
+.white{
+  color: white;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.text-align-right{
+  text-align: right;
+}
+
+.footer-icon{
+  height: 25px;
+}
+
+.margin-top-5{
+  margin-top: 5px;
+}
+
+.margin-top-10{
+  margin-top: 10px;
+}
+
+.margin-top-15{
+  margin-top: 15px;
+}
+
+.margin-top-30{
+  margin-top: 30px;
+}
+
+.margin-left-15{
+  margin-left: 15px;
+}
+
+.margin-bottom-15{
+  margin-bottom: 15px;
+}
+
+.margin-bottom-30{
+  margin-bottom: 30px;
+}
+
+.white-borders {
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+}
+
+#top-banner-container{
+  min-height: 600px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ),
+  url('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/AdobeStock_173880662.jpeg');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+#quote-container{
+  min-height: 500px;
+  background: url('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/AdobeStock_322605949.png');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+#ty-container{
+  min-height: 500px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2)
+  ),
+  url('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/typage.jpeg');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  color: white;
+}
+
+#quote-details{
+  margin-top: 75px;
+}
+
+#header-form-container{
+  width: 400px;
+  height: 650px;
+  position: absolute;
+  left: 75%;
+  transform: translate(-50%, 0);
+  background-color: white;
+  border: solid 1px lightgray;
+  border-radius: .5em;
+  margin-top: 50px;
+  z-index: 1000;
+  -moz-box-shadow:    5px 4px 3px 0px #777;
+  -webkit-box-shadow: 5px 4px 3px 0px #777;
+  box-shadow:         5px 4px 3px 0px #777;  
+}
+
+.header{
+  -moz-box-shadow:    5px 4px 3px 0px #777;
+  -webkit-box-shadow: 5px 4px 3px 0px #777;
+  box-shadow:         5px 4px 3px 0px #777;
+  margin-bottom: -1em;
+}
+
+#banner-text{
+  margin-top: 200px;
+}
+
+.center-card-image{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#product-cards{
+  margin-top: 125px;
+  margin-bottom: 60px;
+}
+
+.blue-button{
+  background-color: #0c77e2;
+}
+
+#banner-section{
+  min-height: 500px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ),
+  url('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/AdobeStock_212943077.jpeg');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+#text-container{
+  border-radius: .5em;
+  background-color: rgba(12, 119, 226, 0.8);
+  height: 350px;
+  width: 600px;
+  padding: 50px;
+  margin-top: 75px;
+  position: absolute;
+  right: 75px;
+}
+
+#underwrite-section{
+  height: 200px;
+  background-color: lightgrey;
+}
+
+.logo-container{
+  height: 200px;
+}
+
+.insurance-logos{
+  width: 200px;
+  position: relative;
+  top: 80px
+}
+
+.insurance-logos-ntw{
+  width: 200px;
+  position: relative;
+  top: 40px
+}
+
+.form-padding{
+  padding: 20px;
+}
+
+.react-datepicker__portal{
+  width: 150vw !important;
+  height: 150vh !important;
+  left: -100% !important;
+  transform: translate(-41%, -34%) !important;
+}
+
+.margin-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.age-fields{
+  display: inline-block;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.move-down{
+  margin-top: 60px;
+}
