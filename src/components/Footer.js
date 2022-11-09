@@ -77,19 +77,19 @@ function Footer(){
                             <Row className='margin-top-15'>
                                 <Col></Col>
                                 <Col className="white text-align-right">
-                                    <img className='footer-icon' src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/instagram.png')} />
+                                    <img className='footer-icon' src={require('../images/instagram.png')} />
                                 </Col>
                                 <Col className="white text-align-center">
-                                    <img className='footer-icon' src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/facebook.png')} />
+                                    <img className='footer-icon' src={require('../images/facebook.png')} />
                                 </Col>
                                 <Col className="white">
-                                    <img className='footer-icon' src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/twitter.png')} />
+                                    <img className='footer-icon' src={require('../images/twitter.png')} />
                                 </Col>
                                 <Col></Col>
                             </Row>
                         </Col>
                         <Col>
-                            <img id="footer-logo" src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/ati-white.png')} />
+                            <img id="footer-logo" src={require('../images/ati-white.png')} />
                         </Col>
                     </Row>
                 </Container>

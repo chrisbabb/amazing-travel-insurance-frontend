@@ -87,7 +87,7 @@ html, body {
     rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)
   ),
-  url('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/AdobeStock_173880662.jpeg');
+  url('./images/AdobeStock_173880662.jpeg');
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
@@ -95,7 +95,7 @@ html, body {
 
 #quote-container{
   min-height: 500px;
-  background: url('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/AdobeStock_322605949.png');
+  background: url('./images/AdobeStock_322605949.png');
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
@@ -107,7 +107,7 @@ html, body {
     rgba(0, 0, 0, 0.2), 
     rgba(0, 0, 0, 0.2)
   ),
-  url('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/typage.jpeg');
+  url('./images/typage.jpeg');
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
@@ -168,7 +168,7 @@ html, body {
     rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)
   ),
-  url('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/AdobeStock_212943077.jpeg');
+  url('./images/AdobeStock_212943077.jpeg');
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
