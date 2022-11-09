@@ -1006,7 +1006,7 @@ function HomePage(){
                 <Row>
                     <Col>
                         <Card>
-                            <Card.Img className="center-card-image" variant="top" src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/loungeicon.png')} />
+                            <Card.Img className="center-card-image" variant="top" src={require('../images/loungeicon.png')} />
                             <Card.Body>
                             <Card.Title>Trip Cancellation</Card.Title>
                             <Card.Text>
@@ -1018,7 +1018,7 @@ function HomePage(){
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img className="center-card-image" variant="top" src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/planeicon.png')} />
+                            <Card.Img className="center-card-image" variant="top" src={require('../images/planeicon.png')} />
                             <Card.Body>
                             <Card.Title>Medical Evacuation</Card.Title>
                             <Card.Text>
@@ -1050,17 +1050,17 @@ function HomePage(){
                 <Row>
                     <Col>
                         <div className='logo-container text-align-right'>
-                            <img className='insurance-logos' src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/progressivelogo.png')} />
+                            <img className='insurance-logos' src={require('../images/progressivelogo.png')} />
                         </div>
                     </Col>
                     <Col>
                         <div className='logo-container text-align-center'>
-                            <img className='insurance-logos' src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/statefarmlogo.png')} />
+                            <img className='insurance-logos' src={require('../images/statefarmlogo.png')} />
                         </div>
                     </Col>
                     <Col>
                         <div className='logo-container'>
-                            <img className='insurance-logos-ntw' src={require('/home/chrisbabb/code/final-project/amazing-travel-insurance-frontend/src/images/nationwidelogo.png')} />
+                            <img className='insurance-logos-ntw' src={require('../images/nationwidelogo.png')} />
                         </div>
                     </Col>
                 </Row>
